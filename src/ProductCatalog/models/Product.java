@@ -1,4 +1,4 @@
-package models;
+package ProductCatalog.models;
 
 import lombok.Getter;
 import lombok.Setter;

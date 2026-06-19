@@ -1,0 +1,54 @@
+package ProductCatalog.service;
+
+import ProductCatalog.dto.FakeStoreProductDto;
+import ProductCatalog.dto.ProductDto;
+import ProductCatalog.models.Category;
+import ProductCatalog.models.Product;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.client.RestTemplate;
+
+@Service
+public class FakeStoreProductService implements IProductService {
+    //In this service, I make a call to fakestoreAPI to fetch, create, update and delete the data.
+
+    //Using RESTTEMPLATE FOR USING the defined FUNCTIONS TO MAKE CALLS.
+    RestTemplate restTemplate = new RestTemplate();
+
+    @Override
+    public Product getProductById(Long id){
+        FakeStoreProductDto fakeStoreProductDto = restTemplate.getForObject("https://fakestoreapi.com/products/{id}", FakeStoreProductDto.class, id);
+        return from(fakeStoreProductDto);
+    }
+    public void put(Long id, Product product){
+        restTemplate.put("https://fakestoreapi.com/products/{id}", from(product), id);
+    }
+    public Product patch(Long id, Product product){
+       FakeStoreProductDto fk = restTemplate.patchForObject("https://fakestoreapi.com/products/{id}", from(product),FakeStoreProductDto.class, id);
+        return  from(fk);
+    }
+
+    public Product from(FakeStoreProductDto fakeStoreProductDto){
+        Product product = new Product();
+        product.setId(fakeStoreProductDto.getId());
+        product.setName(fakeStoreProductDto.getTitle());
+        product.setDescription(fakeStoreProductDto.getDescription());
+        product.setImageUrl(fakeStoreProductDto.getImage());
+        product.setPrice(fakeStoreProductDto.getPrice());
+        Category category = new Category();
+        category.setName(fakeStoreProductDto.getCategory());
+        product.setCategory(category);
+        return product;
+    }
+
+    public FakeStoreProductDto from(Product p){
+        FakeStoreProductDto fk = new FakeStoreProductDto();
+        fk.setId(p.getId());
+        fk.setTitle(p.getName());
+        fk.setImage(p.getImageUrl());
+        fk.setCategory(p.getCategory().getName());
+        fk.setPrice(p.getPrice());
+        fk.setDescription(p.getDescription());
+        return fk;
+    }
+}
