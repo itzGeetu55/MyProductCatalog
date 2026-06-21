@@ -2,11 +2,15 @@ package ProductCatalog.controller;
 
 import ProductCatalog.dto.FakeStoreProductDto;
 import ProductCatalog.dto.ProductDto;
+import ProductCatalog.models.Category;
 import ProductCatalog.models.Product;
 import ProductCatalog.service.FakeStoreProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import ProductCatalog.service.IProductService;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @RestController
 public class ProductController {
@@ -16,9 +20,17 @@ public class ProductController {
     @Autowired
     private IProductService productService;
 
+    //@Qualifier
+
     //@GetMapping("/products/{ID}")-> REST endpoint
     //"/products/{ID}" is called a URI template or path template. ID is Path variable name (the placeholder name from the URI template)
     // fixed part of the URL path + variable part whose value comes from the request URL
+
+    @PostMapping("/products")
+    public ProductDto postProduct(@RequestBody ProductDto productDto){
+        Product newProduct = productService.postProduct(from(productDto));
+        return from(newProduct);
+    }
 
     @GetMapping("/products/{ID}")
     public ProductDto getProductById(@PathVariable("ID") Long id){ //@PathVariable("ID") Long id -> Path variable binding with method parameter
@@ -26,14 +38,31 @@ public class ProductController {
         return from(product);
     }
 
+    @GetMapping("/products")
+    public List<ProductDto> getAllProducts(){
+        List<ProductDto> allProducts = new ArrayList<>();
+        List<Product> products = productService.getAllProducts();
+        for(Product product : products){
+            allProducts.add(from(product));
+        }
+        return allProducts;
+    }
+
     @PutMapping("/products/{id}")
     public void putProduct(@PathVariable("id") Long id, @RequestBody ProductDto productDto){
         productService.put(id,from(productDto));
     }
+
+    //FKSTORE DOESN'T SUPPORT PATCH METHOD
     @PatchMapping("/products/{id}")
     public ProductDto patchProduct(@PathVariable("id") Long id, @RequestBody ProductDto productDto){
         Product pr = productService.patch(id,from(productDto));
         return productDto;
+    }
+
+    @DeleteMapping("/products/{ID}")
+    public void DeleteProduct(@PathVariable("ID") Long id){ //@PathVariable("ID") Long id -> Path variable binding with method parameter
+        productService.deleteProduct(id);
     }
 
     public ProductDto from(Product product){
@@ -43,7 +72,7 @@ public class ProductController {
         productDto.setDescription(product.getDescription());
         productDto.setImageUrl(product.getImageUrl());
         productDto.setPrice(product.getPrice());
-        productDto.setCategory(product.getCategory());
+        productDto.setCategory(product.getCategory().getName());
         return productDto;
     }
 
@@ -53,7 +82,9 @@ public class ProductController {
         prd.setName(p.getName());
         prd.setImageUrl(p.getImageUrl());
         prd.setPrice(p.getPrice());
-        prd.setCategory(p.getCategory());
+        Category category = new Category();
+        category.setName(p.getCategory());
+        prd.setCategory(category);
         prd.setDescription(p.getDescription());
         return prd;
     }

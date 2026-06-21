@@ -13,9 +13,9 @@ import ProductCatalog.models.Category;
 public class ProductDto {
     private Long id;
     private String name;
-    private String Description;
+    private String description;
     private String imageUrl;
     private Double price;
-    private Category category;
+    private String category;
 
 }
