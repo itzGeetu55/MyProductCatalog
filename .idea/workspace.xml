@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="458215bb-e27b-4992-a1b8-949c31c531ad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/controller/StorageProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/repository/categoryRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductCatalogService.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/dto/CategoryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/dto/CategoryDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/dto/FakeStoreProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/dto/FakeStoreProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/dto/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/dto/ProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/models/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/models/BaseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/models/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/models/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/models/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/models/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/service/FakeStoreProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/service/FakeStoreProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/service/StorageProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/service/StorageProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/controller/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/dto/CategoryDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/dto/FakeStoreProductDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/dto/ProductDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/models/BaseModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/models/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/models/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/models/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/service/FakeStoreProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/service/IProductService.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="24" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;itzGeetu55&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ak-s-0723/ProductCatalogService_May2026.git&quot;,
+    &quot;accountId&quot;: &quot;a1cd1b34-d47e-458f-9044-ac9897b899bb&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="7.4370500154324E-18" />
+      <entry key="MS500" value="4.170176522909442E-4" />
+      <entry key="S2" value="0.2195866599252252" />
+      <entry key="S5" value="0.81958585068811" />
+      <entry key="S10" value="1.2965714587531634" />
+      <entry key="S30" value="1.9863965999278907" />
+      <entry key="S60" value="2.3766868371966594" />
+      <entry key="M2" value="2.8282999804971207" />
+      <entry key="M5" value="4.234404395880892" />
+      <entry key="M10" value="6.252622466485782" />
+      <entry key="M15" value="8.019185401523387" />
+      <entry key="M30" value="11.651809068808303" />
+      <entry key="H1" value="14.92713621589842" />
+      <entry key="H2" value="17.190710301006074" />
+      <entry key="H4" value="19.64411143786498" />
+      <entry key="D1" value="79.81771297209521" />
+      <entry key="W1" value="138.68721456640952" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000019325002079" />
+      <entry key="S60" value="1.00139014398313" />
+      <entry key="M2" value="1.0372981827808725" />
+      <entry key="M5" value="1.3052277827667054" />
+      <entry key="M10" value="2.1290974100150364" />
+      <entry key="M15" value="3.2822956739998794" />
+      <entry key="M30" value="6.335838128854577" />
+      <entry key="H1" value="9.538015821901693" />
+      <entry key="H2" value="11.9084392663047" />
+      <entry key="H4" value="14.006088921796342" />
+      <entry key="D1" value="48.76836299444372" />
+      <entry key="W1" value="81.95908821361314" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="6.989286303992543E-17" />
+      <entry key="MS500" value="7.669194590763664E-4" />
+      <entry key="S2" value="0.332755945266335" />
+      <entry key="S5" value="1.2267791856018346" />
+      <entry key="S10" value="1.9303780944579367" />
+      <entry key="S30" value="2.8388503156185383" />
+      <entry key="S60" value="3.2984534896734066" />
+      <entry key="M2" value="3.82276235389736" />
+      <entry key="M5" value="5.518883006623056" />
+      <entry key="M10" value="8.367882946200151" />
+      <entry key="M15" value="11.289535586160008" />
+      <entry key="M30" value="17.978263674062376" />
+      <entry key="H1" value="24.458708653911756" />
+      <entry key="H2" value="29.095283347617542" />
+      <entry key="H4" value="33.647954073182945" />
+      <entry key="D1" value="128.5846480192696" />
+      <entry key="W1" value="220.64595280055445" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="3FtpkBLTPHsMvf7scCdBgk4zC68" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.ProductCatalogService [clean].executor": "Run",
+    "Maven.ProductCatalogService [compile].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.Main.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/gitanjalimadaan/Downloads/ProductCatalogService",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.1150748",
+    "settings.editor.selected.configurable": "advanced.settings"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="ProductCatalogService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ProductCatalog.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ProductCatalog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="458215bb-e27b-4992-a1b8-949c31c531ad" name="Changes" comment="" />
+      <created>1782904361439</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782904361439</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

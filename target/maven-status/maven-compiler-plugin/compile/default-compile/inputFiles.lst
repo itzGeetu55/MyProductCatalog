@@ -1,0 +1,13 @@
+/Users/gitanjalimadaan/Downloads/ProductCatalogService/src/main/java/ProductCatalog/Main.java
+/Users/gitanjalimadaan/Downloads/ProductCatalogService/src/main/java/ProductCatalog/controller/ProductController.java
+/Users/gitanjalimadaan/Downloads/ProductCatalogService/src/main/java/ProductCatalog/dto/CategoryDto.java
+/Users/gitanjalimadaan/Downloads/ProductCatalogService/src/main/java/ProductCatalog/dto/FakeStoreProductDto.java
+/Users/gitanjalimadaan/Downloads/ProductCatalogService/src/main/java/ProductCatalog/dto/ProductDto.java
+/Users/gitanjalimadaan/Downloads/ProductCatalogService/src/main/java/ProductCatalog/models/BaseModel.java
+/Users/gitanjalimadaan/Downloads/ProductCatalogService/src/main/java/ProductCatalog/models/Category.java
+/Users/gitanjalimadaan/Downloads/ProductCatalogService/src/main/java/ProductCatalog/models/Product.java
+/Users/gitanjalimadaan/Downloads/ProductCatalogService/src/main/java/ProductCatalog/models/State.java
+/Users/gitanjalimadaan/Downloads/ProductCatalogService/src/main/java/ProductCatalog/repository/productRepo.java
+/Users/gitanjalimadaan/Downloads/ProductCatalogService/src/main/java/ProductCatalog/service/FakeStoreProductService.java
+/Users/gitanjalimadaan/Downloads/ProductCatalogService/src/main/java/ProductCatalog/service/IProductService.java
+/Users/gitanjalimadaan/Downloads/ProductCatalogService/src/main/java/ProductCatalog/service/StorageProductService.java
