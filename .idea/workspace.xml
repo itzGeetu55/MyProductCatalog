@@ -5,40 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="458215bb-e27b-4992-a1b8-949c31c531ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/controller/StorageProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/repository/categoryRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductCatalogService.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/dto/CategoryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/dto/CategoryDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/dto/FakeStoreProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/dto/FakeStoreProductDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/dto/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/dto/ProductDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/models/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/models/BaseModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/models/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/models/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/models/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/models/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/models/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/service/FakeStoreProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/service/FakeStoreProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/service/IProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductCatalog/service/StorageProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/service/StorageProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/controller/ProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/dto/CategoryDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/dto/FakeStoreProductDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/dto/ProductDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/models/BaseModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/models/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/models/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/models/State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/service/FakeStoreProductService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/classes/ProductCatalog/service/IProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/57b8dea7-7bcb-4e16-b0be-59c1b92b8b0d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/57b8dea7-7bcb-4e16-b0be-59c1b92b8b0d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/57b8dea7-7bcb-4e16-b0be-59c1b92b8b0d/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/57b8dea7-7bcb-4e16-b0be-59c1b92b8b0d/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/57b8dea7-7bcb-4e16-b0be-59c1b92b8b0d/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductCatalog/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductCatalog/controller/StorageProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/controller/StorageProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductCatalog/dto/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/dto/ProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductCatalog/service/StorageProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/service/StorageProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProductCatalog/controller/StorageProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProductCatalog/controller/StorageProductController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +25,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="24" />
+    <option name="cachedIndexableFilesCount" value="37" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,61 +56,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="7.4370500154324E-18" />
-      <entry key="MS500" value="4.170176522909442E-4" />
-      <entry key="S2" value="0.2195866599252252" />
-      <entry key="S5" value="0.81958585068811" />
-      <entry key="S10" value="1.2965714587531634" />
-      <entry key="S30" value="1.9863965999278907" />
-      <entry key="S60" value="2.3766868371966594" />
-      <entry key="M2" value="2.8282999804971207" />
-      <entry key="M5" value="4.234404395880892" />
-      <entry key="M10" value="6.252622466485782" />
-      <entry key="M15" value="8.019185401523387" />
-      <entry key="M30" value="11.651809068808303" />
-      <entry key="H1" value="14.92713621589842" />
-      <entry key="H2" value="17.190710301006074" />
-      <entry key="H4" value="19.64411143786498" />
-      <entry key="D1" value="79.81771297209521" />
-      <entry key="W1" value="138.68721456640952" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000265245556729" />
+      <entry key="S2" value="1.2561706425675272" />
+      <entry key="S5" value="2.578392394231048" />
+      <entry key="S10" value="4.487883105240264" />
+      <entry key="S30" value="9.530560290263162" />
+      <entry key="S60" value="14.668158201897137" />
+      <entry key="M2" value="21.035274127272572" />
+      <entry key="M5" value="28.79352603873035" />
+      <entry key="M10" value="37.35914982409576" />
+      <entry key="M15" value="47.96719094637142" />
+      <entry key="M30" value="83.49909803486935" />
+      <entry key="H1" value="138.26421942474985" />
+      <entry key="H2" value="192.81882033858645" />
+      <entry key="H4" value="233.53569126177538" />
+      <entry key="D1" value="332.2254418181556" />
+      <entry key="W1" value="401.407313795489" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0000019325002079" />
-      <entry key="S60" value="1.00139014398313" />
-      <entry key="M2" value="1.0372981827808725" />
-      <entry key="M5" value="1.3052277827667054" />
-      <entry key="M10" value="2.1290974100150364" />
-      <entry key="M15" value="3.2822956739998794" />
-      <entry key="M30" value="6.335838128854577" />
-      <entry key="H1" value="9.538015821901693" />
-      <entry key="H2" value="11.9084392663047" />
-      <entry key="H4" value="14.006088921796342" />
-      <entry key="D1" value="48.76836299444372" />
-      <entry key="W1" value="81.95908821361314" />
+      <entry key="MS100" value="4.1077057483631254E-51" />
+      <entry key="MS500" value="8.369892211904355E-11" />
+      <entry key="S2" value="0.0030256633023053566" />
+      <entry key="S5" value="0.10234948461703704" />
+      <entry key="S10" value="0.3947051077145591" />
+      <entry key="S30" value="1.7228414904447351" />
+      <entry key="S60" value="3.539432388835856" />
+      <entry key="M2" value="5.774436896012172" />
+      <entry key="M5" value="9.327692352705538" />
+      <entry key="M10" value="17.566421458593027" />
+      <entry key="M15" value="28.105701616053302" />
+      <entry key="M30" value="55.808073878849626" />
+      <entry key="H1" value="87.33232032985482" />
+      <entry key="H2" value="113.50385151495946" />
+      <entry key="H4" value="131.56068292736992" />
+      <entry key="D1" value="181.2843503431279" />
+      <entry key="W1" value="218.91153497996217" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="6.989286303992543E-17" />
-      <entry key="MS500" value="7.669194590763664E-4" />
-      <entry key="S2" value="0.332755945266335" />
-      <entry key="S5" value="1.2267791856018346" />
-      <entry key="S10" value="1.9303780944579367" />
-      <entry key="S30" value="2.8388503156185383" />
-      <entry key="S60" value="3.2984534896734066" />
-      <entry key="M2" value="3.82276235389736" />
-      <entry key="M5" value="5.518883006623056" />
-      <entry key="M10" value="8.367882946200151" />
-      <entry key="M15" value="11.289535586160008" />
-      <entry key="M30" value="17.978263674062376" />
-      <entry key="H1" value="24.458708653911756" />
-      <entry key="H2" value="29.095283347617542" />
-      <entry key="H4" value="33.647954073182945" />
-      <entry key="D1" value="128.5846480192696" />
-      <entry key="W1" value="220.64595280055445" />
+      <entry key="MS100" value="2.20326110156631E-5" />
+      <entry key="MS500" value="0.11724118831252457" />
+      <entry key="S2" value="0.7955811746849738" />
+      <entry key="S5" value="2.3303170972581246" />
+      <entry key="S10" value="4.587279176163365" />
+      <entry key="S30" value="11.023138180960556" />
+      <entry key="S60" value="18.011210739611897" />
+      <entry key="M2" value="26.658531603960178" />
+      <entry key="M5" value="38.02986984636062" />
+      <entry key="M10" value="54.85396293874657" />
+      <entry key="M15" value="76.00455679068135" />
+      <entry key="M30" value="139.24602100027755" />
+      <entry key="H1" value="225.55025257357735" />
+      <entry key="H2" value="306.292845146426" />
+      <entry key="H4" value="365.0790956826637" />
+      <entry key="D1" value="513.5055471688687" />
+      <entry key="W1" value="620.3180809249073" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -223,5 +202,30 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ProductCatalog/service/StorageProductService.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ProductCatalog/service/StorageProductService.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ProductCatalog/service/StorageProductService.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="12" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

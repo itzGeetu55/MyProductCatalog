@@ -70,7 +70,7 @@ public class ProductController {
         productDto.setDescription(product.getDescription());
         productDto.setImageUrl(product.getImageUrl());
         productDto.setPrice(product.getPrice());
-        productDto.setCategory(product.getCategory().getName());
+        //productDto.setCategory(product.getCategory().getName());
         return productDto;
     }
 
@@ -81,7 +81,7 @@ public class ProductController {
         prd.setImageUrl(p.getImageUrl());
         prd.setPrice(p.getPrice());
         Category category = new Category();
-        category.setName(p.getCategory());
+        //category.setName(p.getCategory());
         prd.setCategory(category);
         prd.setDescription(p.getDescription());
         return prd;
