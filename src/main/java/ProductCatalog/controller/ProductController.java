@@ -26,7 +26,7 @@ public class ProductController {
 
     @PostMapping("/products")
     public ProductDto postProduct(@RequestBody ProductDto productDto){
-        Product newProduct = productService.postProduct(from(productDto));
+        Product newProduct = productService.postProduct(from(productDto)); //business
         return from(newProduct);
     }
 
@@ -81,7 +81,7 @@ public class ProductController {
         prd.setImageUrl(p.getImageUrl());
         prd.setPrice(p.getPrice());
         Category category = new Category();
-        //category.setName(p.getCategory());
+        // category.setName(p.getCategory());
         prd.setCategory(category);
         prd.setDescription(p.getDescription());
         return prd;

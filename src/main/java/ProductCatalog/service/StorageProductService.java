@@ -1,9 +1,8 @@
 package ProductCatalog.service;
 
-import ProductCatalog.dto.ProductDto;
 import ProductCatalog.models.*;
-import ProductCatalog.repository.categoryRepo;
-import ProductCatalog.repository.productRepo;
+import ProductCatalog.repository.CategoryRepo;
+import ProductCatalog.repository.ProductRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
@@ -16,10 +15,10 @@ import java.util.Optional;
 public class StorageProductService  {
 
     @Autowired
-    productRepo prodRepo;
+    ProductRepo prodRepo;
 
     @Autowired
-    categoryRepo categoryRepo;
+    CategoryRepo categoryRepo;
 
     //Null checks
     public Product createProduct(Product product){
@@ -51,10 +50,11 @@ public class StorageProductService  {
     public Product getProduct(Long id){
         System.out.println(id);
         Optional<Product> optionalProduct = prodRepo.findById(id);
-        if(optionalProduct.isPresent()){
-            return optionalProduct.get();
-        }
-        return null;
+        return optionalProduct.orElse(null);
+//        if(optionalProduct.isPresent()){
+//            return optionalProduct.get();
+//        }
+//        return null;
     }
 
     //get all products
@@ -101,6 +101,7 @@ public class StorageProductService  {
     public String deleteProduct(Long id){
         prodRepo.findById(id).orElseThrow(()->new RuntimeException("Product with this "+ id + " doesn't exist"));
         prodRepo.deleteById(id);
+
         return "Product with id " + id + " successfully deleted";
     }
 }

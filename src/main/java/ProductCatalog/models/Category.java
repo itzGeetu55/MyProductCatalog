@@ -12,7 +12,8 @@ import java.util.List;
 @Setter
 @Entity(name = "category")
 public class Category extends BaseModel {
-    private String Description;
+    private String Description; //naming conventions isn't correct
+
     @ElementCollection
-    private List<Product> products;
+    private List<Product> products; //where's fetch type? what will be default behaviour if not specified
 }
