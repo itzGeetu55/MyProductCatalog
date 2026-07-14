@@ -5,18 +5,18 @@ import ProductCatalog.models.Product;
 import ProductCatalog.service.ISearchProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RequestMapping("/search")
-@Controller
+@RestController //restAPI
+//@Controller - used when views are returned
 public class SearchProductController {
     @Autowired
     ISearchProductService searchService;
 
+//    @ResponseBody - used with @controller to tell not to return view but json
     @PostMapping
     public List<Product> searchProduct(@RequestBody SearchProductDto searchProduct){
         return searchService.searchProduct(searchProduct.getQuery());
