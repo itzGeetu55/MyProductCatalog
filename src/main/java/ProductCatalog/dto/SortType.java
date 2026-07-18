@@ -1,4 +1,4 @@
-package ProductCatalog.models;
+package ProductCatalog.dto;
 
 public enum SortType {
     asc, desc

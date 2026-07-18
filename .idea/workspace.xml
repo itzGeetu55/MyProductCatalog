@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="458215bb-e27b-4992-a1b8-949c31c531ad" name="Changes" comment="search with page" />
+    <list default="true" id="458215bb-e27b-4992-a1b8-949c31c531ad" name="Changes" comment="search with page">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/dto/SortParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductCatalog/controller/SearchProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/controller/SearchProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductCatalog/dto/SearchProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/dto/SearchProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductCatalog/models/SortType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/dto/SortType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductCatalog/service/ISearchProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/service/ISearchProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductCatalog/service/SearchProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/service/SearchProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProductCatalog/controller/SearchProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProductCatalog/controller/SearchProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProductCatalog/dto/SearchProductDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProductCatalog/dto/SearchProductDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProductCatalog/service/ISearchProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProductCatalog/service/ISearchProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProductCatalog/service/SearchProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProductCatalog/service/SearchProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,61 +57,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000135187679" />
-      <entry key="S2" value="1.015905928368106" />
-      <entry key="S5" value="1.3580019118653763" />
-      <entry key="S10" value="2.1385582706019157" />
-      <entry key="S30" value="3.60014131591331" />
-      <entry key="S60" value="4.272517831712269" />
-      <entry key="M2" value="5.068560919495504" />
-      <entry key="M5" value="8.467928892238708" />
-      <entry key="M10" value="16.207702825631205" />
-      <entry key="M15" value="25.296375891020784" />
-      <entry key="M30" value="49.721191408613045" />
-      <entry key="H1" value="77.5179937635002" />
-      <entry key="H2" value="99.49330640390247" />
-      <entry key="H4" value="113.50255729790256" />
-      <entry key="D1" value="239.44976394156916" />
-      <entry key="W1" value="650.5054677240416" />
+      <entry key="MS100" value="5.633836843941489E-54" />
+      <entry key="MS500" value="2.3737044425597366E-11" />
+      <entry key="S2" value="0.004310596989666842" />
+      <entry key="S5" value="0.3095857941672029" />
+      <entry key="S10" value="1.5548532395411718" />
+      <entry key="S30" value="5.221770468831604" />
+      <entry key="S60" value="8.026442575038324" />
+      <entry key="M2" value="13.648075110700486" />
+      <entry key="M5" value="29.066942221994683" />
+      <entry key="M10" value="43.59638365869641" />
+      <entry key="M15" value="51.36418046191327" />
+      <entry key="M30" value="63.0490189591716" />
+      <entry key="H1" value="74.06827674109903" />
+      <entry key="H2" value="92.19419308145399" />
+      <entry key="H4" value="124.48152082458422" />
+      <entry key="D1" value="291.61293880234257" />
+      <entry key="W1" value="726.772527088185" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="8.49811182542564E-151" />
-      <entry key="S2" value="3.03620163921662E-38" />
-      <entry key="S5" value="9.838577342982404E-16" />
-      <entry key="S10" value="3.1382930026381756E-8" />
-      <entry key="S30" value="0.0035596808639123205" />
-      <entry key="S60" value="0.08736132355314209" />
-      <entry key="M2" value="0.6317809360391597" />
-      <entry key="M5" value="3.6999222262292704" />
-      <entry key="M10" value="9.500384214193248" />
-      <entry key="M15" value="15.1324019067056" />
-      <entry key="M30" value="27.67085891131729" />
-      <entry key="H1" value="39.83956727863929" />
-      <entry key="H2" value="48.614362111393916" />
-      <entry key="H4" value="53.93803578344108" />
-      <entry key="D1" value="96.13623494947402" />
-      <entry key="W1" value="244.28308266561564" />
+      <entry key="MS100" value="1.0000051750348184" />
+      <entry key="MS500" value="1.0876877094681128" />
+      <entry key="S2" value="1.619041495558772" />
+      <entry key="S5" value="2.138614257073227" />
+      <entry key="S10" value="2.480951788548502" />
+      <entry key="S30" value="2.8223642605137225" />
+      <entry key="S60" value="3.3654358971953786" />
+      <entry key="M2" value="6.038806259061438" />
+      <entry key="M5" value="16.228029518739536" />
+      <entry key="M10" value="26.85075711914748" />
+      <entry key="M15" value="32.57048809083996" />
+      <entry key="M30" value="40.69793221283637" />
+      <entry key="H1" value="47.43841293519927" />
+      <entry key="H2" value="56.8297922544337" />
+      <entry key="H4" value="72.1884056657535" />
+      <entry key="D1" value="136.72817642801" />
+      <entry key="W1" value="294.9936998556548" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9592641193252643" />
-      <entry key="MS500" value="0.9917167342965567" />
-      <entry key="S2" value="1.008139802865848" />
-      <entry key="S5" value="1.2847668378020314" />
-      <entry key="S10" value="2.004357985697976" />
-      <entry key="S30" value="3.490512455771237" />
-      <entry key="S60" value="4.2838172127118295" />
-      <entry key="M2" value="5.641629293796663" />
-      <entry key="M5" value="12.10521869152116" />
-      <entry key="M10" value="25.643415386572627" />
-      <entry key="M15" value="40.364633301395806" />
-      <entry key="M30" value="77.33591251024988" />
-      <entry key="H1" value="117.31731858050262" />
-      <entry key="H2" value="148.08302799615285" />
-      <entry key="H4" value="167.42687952058168" />
-      <entry key="D1" value="335.58261974102396" />
-      <entry key="W1" value="894.787540185475" />
+      <entry key="MS100" value="0.0028201756118751515" />
+      <entry key="MS500" value="0.32603216594927165" />
+      <entry key="S2" value="1.1605770223382204" />
+      <entry key="S5" value="2.1303990072213166" />
+      <entry key="S10" value="3.7541940270482206" />
+      <entry key="S30" value="7.8338566080946945" />
+      <entry key="S60" value="11.236617668432222" />
+      <entry key="M2" value="19.542392990895834" />
+      <entry key="M5" value="45.14287889611163" />
+      <entry key="M10" value="70.32293438031607" />
+      <entry key="M15" value="83.83455319923891" />
+      <entry key="M30" value="103.68390257192331" />
+      <entry key="H1" value="121.46909568520697" />
+      <entry key="H2" value="149.0005315457438" />
+      <entry key="H4" value="196.65429536233302" />
+      <entry key="D1" value="428.3363527887286" />
+      <entry key="W1" value="1021.7649622121445" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -111,37 +125,37 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.ProductCatalogService [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ProductCatalogService [compile].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Main.executor&quot;: &quot;Run&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/gitanjalimadaan/Downloads/ProductCatalogService&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.1150748&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.ProductCatalogService [clean].executor": "Run",
+    "Maven.ProductCatalogService [compile].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.Main.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/gitanjalimadaan/Downloads/ProductCatalogService",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.1150748",
+    "settings.editor.selected.configurable": "advanced.settings"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -233,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784371043233</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="search with page">
+      <option name="closed" value="true" />
+      <created>1784371153350</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1784371153350</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +294,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/ProductCatalog/service/StorageProductService.java</url>
           <line>82</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ProductCatalog/controller/SearchProductController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ProductCatalog/service/SearchProductService.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.util.NoSuchElementException" package="java.util" />

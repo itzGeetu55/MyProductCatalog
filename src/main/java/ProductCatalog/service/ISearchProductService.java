@@ -1,10 +1,11 @@
 package ProductCatalog.service;
 
+import ProductCatalog.dto.SortParam;
 import ProductCatalog.models.Product;
 import org.springframework.data.domain.Page;
 
 import java.util.List;
 
 public interface ISearchProductService {
-    Page<Product> searchProduct(String query, int pageCount, int perPageCount);
+    Page<Product> searchProduct(String query, int pageCount, int perPageCount, List<SortParam> sortParams);
 }
