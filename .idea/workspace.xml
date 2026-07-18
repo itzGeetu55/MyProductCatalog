@@ -7,6 +7,10 @@
     <list default="true" id="458215bb-e27b-4992-a1b8-949c31c531ad" name="Changes" comment="search with post request added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ProductCatalog/controller/SearchProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/controller/SearchProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductCatalog/dto/SearchProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/dto/SearchProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductCatalog/repository/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/repository/ProductRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductCatalog/service/ISearchProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/service/ISearchProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductCatalog/service/SearchProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/service/SearchProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,59 +52,59 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.000000003335384" />
-      <entry key="S5" value="1.0004066851690032" />
-      <entry key="S10" value="1.0201664366957388" />
-      <entry key="S30" value="1.2721926621583144" />
-      <entry key="S60" value="1.5220927474932073" />
-      <entry key="M2" value="1.785653107293598" />
-      <entry key="M5" value="3.997443221086971" />
-      <entry key="M10" value="12.504704403201494" />
-      <entry key="M15" value="22.55056857742344" />
-      <entry key="M30" value="46.33861926012181" />
-      <entry key="H1" value="70.0774940711633" />
-      <entry key="H2" value="87.38749451299893" />
-      <entry key="H4" value="97.95345600057323" />
-      <entry key="D1" value="221.04160542775583" />
-      <entry key="W1" value="631.1332970346334" />
+      <entry key="S2" value="1.0000426675855507" />
+      <entry key="S5" value="1.0178664894469018" />
+      <entry key="S10" value="1.1336655953580452" />
+      <entry key="S30" value="1.5133865771041195" />
+      <entry key="S60" value="1.7998169073949162" />
+      <entry key="M2" value="2.792793351739139" />
+      <entry key="M5" value="7.349851431450772" />
+      <entry key="M10" value="16.051126364098288" />
+      <entry key="M15" value="25.728931421692742" />
+      <entry key="M30" value="50.312800431996976" />
+      <entry key="H1" value="76.90851914149945" />
+      <entry key="H2" value="97.30950753696798" />
+      <entry key="H4" value="110.10700097561667" />
+      <entry key="D1" value="235.02333625743768" />
+      <entry key="W1" value="645.7306798456244" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="8.804263795049495E-25" />
-      <entry key="MS500" value="1.5450360219581488E-5" />
-      <entry key="S2" value="0.06269526382735767" />
-      <entry key="S5" value="0.33096363500167" />
-      <entry key="S10" value="0.6006849715791415" />
-      <entry key="S30" value="1.1275744523332911" />
-      <entry key="S60" value="1.4560326761085547" />
-      <entry key="M2" value="1.7017972013255727" />
-      <entry key="M5" value="2.899689757098244" />
-      <entry key="M10" value="7.802910176437718" />
-      <entry key="M15" value="12.94815305034227" />
-      <entry key="M30" value="23.38940409130883" />
-      <entry key="H1" value="32.4463336688624" />
-      <entry key="H2" value="38.526353450875895" />
-      <entry key="H4" value="42.0752697346401" />
-      <entry key="D1" value="82.77528287819375" />
-      <entry key="W1" value="230.5186598332137" />
+      <entry key="MS100" value="3.087284514511355E-190" />
+      <entry key="MS500" value="1.314505077314587E-38" />
+      <entry key="S2" value="4.921105605158751E-10" />
+      <entry key="S5" value="2.8204313709331684E-4" />
+      <entry key="S10" value="0.023683708941491636" />
+      <entry key="S30" value="0.45863650968928726" />
+      <entry key="S60" value="1.0487933958895739" />
+      <entry key="M2" value="2.2888950508063566" />
+      <entry key="M5" value="6.337436768300436" />
+      <entry key="M10" value="12.436157651214513" />
+      <entry key="M15" value="18.084921960298125" />
+      <entry key="M30" value="30.08899657821048" />
+      <entry key="H1" value="41.23248470088797" />
+      <entry key="H2" value="49.05405562816939" />
+      <entry key="H4" value="53.731135973779075" />
+      <entry key="D1" value="95.37073740197266" />
+      <entry key="W1" value="243.3682153367426" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="6.702529704339149E-18" />
-      <entry key="MS500" value="3.675429852862574E-4" />
-      <entry key="S2" value="0.15349138503249968" />
-      <entry key="S5" value="0.640897513454813" />
-      <entry key="S10" value="1.1471197059442133" />
-      <entry key="S30" value="2.1827955772388794" />
-      <entry key="S60" value="2.8550716356055714" />
-      <entry key="M2" value="3.4208516482850655" />
-      <entry key="M5" value="6.860764743403303" />
-      <entry key="M10" value="20.26548135795516" />
-      <entry key="M15" value="35.45212600849234" />
-      <entry key="M30" value="69.68449163187948" />
-      <entry key="H1" value="102.49273560564025" />
-      <entry key="H2" value="125.89505945268584" />
-      <entry key="H4" value="140.01836804106787" />
-      <entry key="D1" value="303.81413429467096" />
-      <entry key="W1" value="861.6510381309638" />
+      <entry key="MS100" value="1.3693551480734761E-7" />
+      <entry key="MS500" value="0.042393885232739736" />
+      <entry key="S2" value="0.45379010608901726" />
+      <entry key="S5" value="0.7448386367496413" />
+      <entry key="S10" value="0.9987925869139732" />
+      <entry key="S30" value="1.8816729662623946" />
+      <entry key="S60" value="2.7736628622027055" />
+      <entry key="M2" value="5.0025128277107545" />
+      <entry key="M5" value="13.60484623716119" />
+      <entry key="M10" value="28.41223768918071" />
+      <entry key="M15" value="43.74308490026863" />
+      <entry key="M30" value="80.34341924273252" />
+      <entry key="H1" value="118.10060567754714" />
+      <entry key="H2" value="146.33930301875728" />
+      <entry key="H4" value="163.82477174833465" />
+      <entry key="D1" value="330.39077724627117" />
+      <entry key="W1" value="889.0978976060724" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -114,37 +118,37 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.ProductCatalogService [clean].executor": "Run",
-    "Maven.ProductCatalogService [compile].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.Main.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/gitanjalimadaan/Downloads/ProductCatalogService",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.1150748",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.ProductCatalogService [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ProductCatalogService [compile].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Main.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gitanjalimadaan/Downloads/ProductCatalogService&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.1150748&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -204,7 +208,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784055266530</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="search with post request added">
+      <option name="closed" value="true" />
+      <created>1784056156091</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1784056156091</updated>
+    </task>
+    <task id="LOCAL-00004" summary="search with post request added">
+      <option name="closed" value="true" />
+      <created>1784056167993</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1784056167993</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,12 +270,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ProductCatalog/service/SearchProductService.java</url>
-          <line>15</line>
+          <line>13</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ProductCatalog/service/SearchProductService.java</url>
-          <line>16</line>
+          <line>14</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">

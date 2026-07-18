@@ -10,4 +10,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class SearchProductDto {
     private String query;
     //private SortType sortType;
+    private int pageNumber;
+    private int pageCount;
 }

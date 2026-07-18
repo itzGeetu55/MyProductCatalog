@@ -4,6 +4,7 @@ import ProductCatalog.dto.SearchProductDto;
 import ProductCatalog.models.Product;
 import ProductCatalog.service.ISearchProductService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,8 +19,8 @@ public class SearchProductController {
 
 //    @ResponseBody - used with @controller to tell not to return view but json
     @PostMapping
-    public List<Product> searchProduct(@RequestBody SearchProductDto searchProduct){
-        return searchService.searchProduct(searchProduct.getQuery());
+    public Page<Product> searchProduct(@RequestBody SearchProductDto searchdto){
+        return searchService.searchProduct(searchdto.getQuery(),searchdto.getPageNumber(),searchdto.getPageCount());
     }
 
 }
