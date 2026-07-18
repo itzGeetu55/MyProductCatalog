@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="458215bb-e27b-4992-a1b8-949c31c531ad" name="Changes" comment="search with post request added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProductCatalog/controller/SearchProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/controller/SearchProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProductCatalog/dto/SearchProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/dto/SearchProductDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProductCatalog/repository/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/repository/ProductRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProductCatalog/service/ISearchProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/service/ISearchProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProductCatalog/service/SearchProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCatalog/service/SearchProductService.java" afterDir="false" />
-    </list>
+    <list default="true" id="458215bb-e27b-4992-a1b8-949c31c531ad" name="Changes" comment="search with page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,60 +44,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000426675855507" />
-      <entry key="S5" value="1.0178664894469018" />
-      <entry key="S10" value="1.1336655953580452" />
-      <entry key="S30" value="1.5133865771041195" />
-      <entry key="S60" value="1.7998169073949162" />
-      <entry key="M2" value="2.792793351739139" />
-      <entry key="M5" value="7.349851431450772" />
-      <entry key="M10" value="16.051126364098288" />
-      <entry key="M15" value="25.728931421692742" />
-      <entry key="M30" value="50.312800431996976" />
-      <entry key="H1" value="76.90851914149945" />
-      <entry key="H2" value="97.30950753696798" />
-      <entry key="H4" value="110.10700097561667" />
-      <entry key="D1" value="235.02333625743768" />
-      <entry key="W1" value="645.7306798456244" />
+      <entry key="MS500" value="1.0000000135187679" />
+      <entry key="S2" value="1.015905928368106" />
+      <entry key="S5" value="1.3580019118653763" />
+      <entry key="S10" value="2.1385582706019157" />
+      <entry key="S30" value="3.60014131591331" />
+      <entry key="S60" value="4.272517831712269" />
+      <entry key="M2" value="5.068560919495504" />
+      <entry key="M5" value="8.467928892238708" />
+      <entry key="M10" value="16.207702825631205" />
+      <entry key="M15" value="25.296375891020784" />
+      <entry key="M30" value="49.721191408613045" />
+      <entry key="H1" value="77.5179937635002" />
+      <entry key="H2" value="99.49330640390247" />
+      <entry key="H4" value="113.50255729790256" />
+      <entry key="D1" value="239.44976394156916" />
+      <entry key="W1" value="650.5054677240416" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="3.087284514511355E-190" />
-      <entry key="MS500" value="1.314505077314587E-38" />
-      <entry key="S2" value="4.921105605158751E-10" />
-      <entry key="S5" value="2.8204313709331684E-4" />
-      <entry key="S10" value="0.023683708941491636" />
-      <entry key="S30" value="0.45863650968928726" />
-      <entry key="S60" value="1.0487933958895739" />
-      <entry key="M2" value="2.2888950508063566" />
-      <entry key="M5" value="6.337436768300436" />
-      <entry key="M10" value="12.436157651214513" />
-      <entry key="M15" value="18.084921960298125" />
-      <entry key="M30" value="30.08899657821048" />
-      <entry key="H1" value="41.23248470088797" />
-      <entry key="H2" value="49.05405562816939" />
-      <entry key="H4" value="53.731135973779075" />
-      <entry key="D1" value="95.37073740197266" />
-      <entry key="W1" value="243.3682153367426" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="8.49811182542564E-151" />
+      <entry key="S2" value="3.03620163921662E-38" />
+      <entry key="S5" value="9.838577342982404E-16" />
+      <entry key="S10" value="3.1382930026381756E-8" />
+      <entry key="S30" value="0.0035596808639123205" />
+      <entry key="S60" value="0.08736132355314209" />
+      <entry key="M2" value="0.6317809360391597" />
+      <entry key="M5" value="3.6999222262292704" />
+      <entry key="M10" value="9.500384214193248" />
+      <entry key="M15" value="15.1324019067056" />
+      <entry key="M30" value="27.67085891131729" />
+      <entry key="H1" value="39.83956727863929" />
+      <entry key="H2" value="48.614362111393916" />
+      <entry key="H4" value="53.93803578344108" />
+      <entry key="D1" value="96.13623494947402" />
+      <entry key="W1" value="244.28308266561564" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.3693551480734761E-7" />
-      <entry key="MS500" value="0.042393885232739736" />
-      <entry key="S2" value="0.45379010608901726" />
-      <entry key="S5" value="0.7448386367496413" />
-      <entry key="S10" value="0.9987925869139732" />
-      <entry key="S30" value="1.8816729662623946" />
-      <entry key="S60" value="2.7736628622027055" />
-      <entry key="M2" value="5.0025128277107545" />
-      <entry key="M5" value="13.60484623716119" />
-      <entry key="M10" value="28.41223768918071" />
-      <entry key="M15" value="43.74308490026863" />
-      <entry key="M30" value="80.34341924273252" />
-      <entry key="H1" value="118.10060567754714" />
-      <entry key="H2" value="146.33930301875728" />
-      <entry key="H4" value="163.82477174833465" />
-      <entry key="D1" value="330.39077724627117" />
-      <entry key="W1" value="889.0978976060724" />
+      <entry key="MS100" value="0.9592641193252643" />
+      <entry key="MS500" value="0.9917167342965567" />
+      <entry key="S2" value="1.008139802865848" />
+      <entry key="S5" value="1.2847668378020314" />
+      <entry key="S10" value="2.004357985697976" />
+      <entry key="S30" value="3.490512455771237" />
+      <entry key="S60" value="4.2838172127118295" />
+      <entry key="M2" value="5.641629293796663" />
+      <entry key="M5" value="12.10521869152116" />
+      <entry key="M10" value="25.643415386572627" />
+      <entry key="M15" value="40.364633301395806" />
+      <entry key="M30" value="77.33591251024988" />
+      <entry key="H1" value="117.31731858050262" />
+      <entry key="H2" value="148.08302799615285" />
+      <entry key="H4" value="167.42687952058168" />
+      <entry key="D1" value="335.58261974102396" />
+      <entry key="W1" value="894.787540185475" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -224,7 +217,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784056167993</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="search with post request added">
+      <option name="closed" value="true" />
+      <created>1784370967552</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1784370967553</updated>
+    </task>
+    <task id="LOCAL-00006" summary="search with page">
+      <option name="closed" value="true" />
+      <created>1784371043233</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1784371043233</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +252,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="search with post request added" />
-    <option name="LAST_COMMIT_MESSAGE" value="search with post request added" />
+    <MESSAGE value="search with page" />
+    <option name="LAST_COMMIT_MESSAGE" value="search with page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -262,21 +272,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/ProductCatalog/service/StorageProductService.java</url>
           <line>82</line>
           <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ProductCatalog/controller/SearchProductController.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ProductCatalog/service/SearchProductService.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ProductCatalog/service/SearchProductService.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.util.NoSuchElementException" package="java.util" />
